@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_footer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom|center"
+    android:background="@color/colorPrimary"
+    android:gravity="bottom|center"
+    android:orientation="vertical">
+
+
+    <com.techdatum.epanchayat.textUi.CustomTextView
+        style="@style/NormalHeaderStyle"
+        android:layout_gravity="bottom|center"
+        android:gravity="bottom|center"
+        android:text=" © 2020 Tecdatum Infoservices Pvt. Ltd. All rights reserved."
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        android:textStyle="normal" />
+</LinearLayout>

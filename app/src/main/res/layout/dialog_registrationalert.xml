@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="@dimen/_4ssp"
+    app:cardPreventCornerOverlap="false"
+    app:cardUseCompatPadding="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_report_problem_black_24dp" />
+
+            <com.techdatum.epanchayat.textUi.CustomTextView
+                style="@style/HeaderStyle"
+                android:layout_marginTop="@dimen/_2ssp"
+                android:layout_marginBottom="@dimen/_2ssp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:text="@string/registrationalert"
+                android:textSize="@dimen/_14sdp"
+                android:layout_marginLeft="@dimen/_10sdp" />
+
+        </LinearLayout>
+
+        <com.techdatum.epanchayat.textUi.CustomTextView
+            style="@style/NormalHeaderStyle"
+            android:layout_gravity="center"
+            android:text="@string/registrationreport" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@color/edittexthintcolor" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:weightSum="2">
+
+            <RelativeLayout
+                android:id="@+id/lay_reportno_rg"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <com.techdatum.epanchayat.textUi.CustomTextView
+                    style="@style/HeaderStyle"
+                    android:layout_centerInParent="true"
+                    android:text="@string/registrationreport_no"
+                    android:textColor="@color/text_color" />
+
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:background="@color/edittexthintcolor" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/lay_rg_yes"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <com.techdatum.epanchayat.textUi.CustomTextView
+                    style="@style/HeaderStyle"
+                    android:layout_centerInParent="true"
+                    android:text="@string/registrationreport_yes"
+                    android:textColor="@color/text_color" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+
+
+

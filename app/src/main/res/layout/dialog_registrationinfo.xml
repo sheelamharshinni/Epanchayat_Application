@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="@dimen/_4ssp"
+    app:cardPreventCornerOverlap="false"
+    app:cardUseCompatPadding="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_report_problem_black_24dp" />
+
+            <com.techdatum.epanchayat.textUi.CustomTextView
+                style="@style/HeaderStyle"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_2ssp"
+                android:layout_marginBottom="@dimen/_2ssp"
+                android:text="@string/registrationinfo"
+                android:textSize="@dimen/_14sdp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@color/edittexthintcolor" />
+
+        <com.techdatum.epanchayat.textUi.CustomTextView
+            style="@style/NormalHeaderStyle"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="@string/registrationotpapproval" />
+
+        <com.techdatum.epanchayat.textUi.CustomTextView
+            style="@style/NormalHeaderStyle"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:text="@string/registrationotpapproval1" />
+
+        <com.techdatum.epanchayat.textUi.CustomTextView
+            style="@style/NormalHeaderStyle"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:text="@string/registrationotpapproval2" />
+
+        <com.techdatum.epanchayat.textUi.CustomTextView
+            style="@style/NormalHeaderStyle"
+            android:layout_gravity="center"
+            android:text="@string/registrationotpapproval3" />
+
+        <com.techdatum.epanchayat.textUi.CustomTextView
+            style="@style/NormalHeaderStyle"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:text="@string/registrationotpapproval4" />
+
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_5sdp"
+            android:background="@drawable/book_button_bg"
+            android:text="@string/approvalokbutton"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+
+
+

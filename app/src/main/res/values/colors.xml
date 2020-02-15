@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorTitle">#333333</color>
+    <color name="colorSubtitle">#555555</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorViewBackGround">#e6e6e6</color>
+    <color name="edittexthintcolor">#999999</color>
+    <color name="incident_BG_Color">#e1e1e1</color>
+    <color name="colorBlack">#000000</color>
+    <color name="primary_text_color">#333333</color>
+    <color name="secondary_text_color">#555555</color>
+    <color name="review_count">#888888</color>
+    <color name="eventColor">#ded7d7d7</color>
+    <color name="text_color">#286090</color>
+    <color name="white">#FFFFFF</color>
+    <color name="card_bg">#ccffffff</color>
+</resources>

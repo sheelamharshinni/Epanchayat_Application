@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LoginActivity">
+
+    <com.techdatum.epanchayat.textUi.CustomTextView
+        style="@style/HeaderStyle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="@string/login"
+        android:textSize="@dimen/_16sdp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5sdp"
+                android:orientation="horizontal">
+
+                <com.techdatum.epanchayat.textUi.CustomTextView
+                    style="@style/HeaderStyle"
+                    android:text="@string/mobile_or_username" />
+
+                <com.techdatum.epanchayat.textUi.CustomTextView
+                    style="@style/HeaderStyle"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:text="@string/mandatory"
+                    android:textColor="@color/colorAccent" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:background="@drawable/bubble"
+                android:hint="@string/mobile_or_username_hint"
+                android:inputType="textEmailAddress"
+                android:paddingStart="32dp"
+                android:paddingEnd="32dp"
+                android:textColor="@color/colorSubtitle"
+                android:textColorHint="@color/edittexthintcolor"
+                android:textSize="@dimen/_12sdp" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5sdp"
+                android:orientation="horizontal">
+
+                <com.techdatum.epanchayat.textUi.CustomTextView
+                    style="@style/HeaderStyle"
+                    android:text="@string/password" />
+
+                <com.techdatum.epanchayat.textUi.CustomTextView
+                    style="@style/HeaderStyle"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:text="@string/mandatory"
+                    android:textColor="@color/colorAccent" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_2sdp"
+                android:background="@drawable/bubble">
+
+                <EditText
+                    android:id="@+id/et_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:background="@android:color/transparent"
+                    android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890.@-?"
+                    android:gravity="center_vertical"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:paddingStart="32dp"
+                    android:paddingEnd="32dp"
+                    android:singleLine="true"
+                    android:textColor="@color/secondary_text_color"
+                    android:textCursorDrawable="@drawable/color_cursor"
+                    android:textSize="@dimen/_12sdp"
+                    app:errorEnabled="true" />
+            </RelativeLayout>
+
+
+            <Button
+                android:id="@+id/bt_login"
+                style="@style/NormalHeaderStyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:background="@drawable/book_button_bg"
+                android:text="@string/login"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_14sdp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:id="@+id/savecredentials"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Savecredentials"
+                        android:textColor="@color/edittexthintcolor"
+                        android:textSize="@dimen/_10sdp" />
+
+
+                    <com.techdatum.epanchayat.textUi.CustomTextView
+                        android:id="@+id/tv_forgotpassword"
+                        style="@style/NormalHeaderStyle"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:text="@string/forgotusername"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/txt_large_size" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/lay_registrenavigation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.techdatum.epanchayat.textUi.CustomTextView
+                    style="@style/NormalHeaderStyle"
+                    android:text="@string/notregistered"
+                    android:textAllCaps="false"
+                    android:textColor="@color/edittexthintcolor"
+                    android:textSize="@dimen/_12sdp" />
+
+                <com.techdatum.epanchayat.textUi.CustomTextView
+                    android:id="@+id/bt_register"
+                    style="@style/NormalHeaderStyle"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:text="@string/createaccount"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/_12sdp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <include
+        layout="@layout/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

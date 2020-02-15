@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<dimen name="txt_large_size">@dimen/_10sdp</dimen>
+<dimen name="txt_small_size">@dimen/_8sdp</dimen>
+</resources>

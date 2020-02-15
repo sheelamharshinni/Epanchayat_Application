@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/MainBottomFragment"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/drainsfragment"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/drainsbottom" />
+    <item
+        android:id="@+id/publicinstitution"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/institutions" />
+    <item
+        android:id="@+id/dumpyard"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/dumpyard" />
+    <item
+        android:id="@+id/graveyard"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/graveyard" />
+</menu>

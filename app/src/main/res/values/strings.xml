@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">Epanchayat_Application</string>
+
+    <string name="MyriadRegular_font">OpenSans-Regular</string>
+    <string name="Myriad_font_family">ttf</string>
+
+    <string name="Roboto_Bold_font">Roboto-Bold</string>
+    <string name="Roboto_Bold">ttf</string>
+
+    <string name="Roboto_Light_font">Roboto-Light</string>
+    <string name="Roboto_Light">ttf</string>
+
+    <string name="Roboto_Regular_font">Roboto-Regular</string>
+    <string name="Roboto_Regular">ttf</string>
+
+
+    <!--login-->
+    <string name="login">Login</string>
+    <string name="mobile_or_username">Mobile or Username</string>
+    <string name="mobile_or_username_hint">Please Enter Mobile Number or User name</string>
+    <string name="notregistered">Not registered?</string>
+    <string name="createaccount">Create an account</string>
+    <string name="forgotusername"><U>Forgot Password ?</U></string>
+    <string name="Savecredentials">Save Credentials</string>
+    <string name="waitingforapproval">approved, please wait for approval</string>
+    <string name="approvalmessage">is not</string>
+    <string name="approvalokbutton">ok</string>
+
+    <!--Login footer-->
+    <string name="productname"> a tecdatum product</string>
+    <string name="versioncode">Version - 1.0</string>
+    <string name="loginerror">Login : Error</string>
+
+    <!--verification-->
+    <string name="verificationtitle">Verification</string>
+    <string name="verificationmessage">Please verify your contact details to proceed.</string>
+    <string name="enterotp">Enter Mobile OTP</string>
+    <string name="resendotp">Resend OTP</string>
+    <string name="submit_verfication">Submit</string>
+
+    <!--forgetpassword-->
+    <string name="forgetpasswordtitle">Forgot Password</string>
+
+    <!-- Registration -->
+    <string name="registration">User Registration</string>
+    <string name="registrationalert">Registration :Alert</string>
+    <string name="registrationinfo">Registration : Info</string>
+    <string name="registrationotpapproval">Your verification process has been </string>
+    <string name="registrationotpapproval1">Successfully completed </string>
+    <string name="registrationotpapproval2">Please wait for Approval. </string>
+    <string name="registrationotpapproval3">You can login after getting confirmation</string>
+    <string name="registrationotpapproval4">message of Approval.</string>
+    <string name="skip"><u>Skip Now</u></string>
+    <string name="selectrole">-Select Role-</string>
+    <string name="role">Role</string>
+    <string name="state">State</string>
+    <string name="division">Division</string>
+    <string name="selectdivision">Division</string>
+    <string name="district">District</string>
+    <string name="selectdistrict">District</string>
+    <string name="mandal">Mandal</string>
+    <string name="selectmandal">Mandal</string>
+    <string name="grampanchayat">Gram Panchayat</string>
+    <string name="selectgrampanchayat">Gram Panchayat</string>
+    <string name="emial">Email</string>
+    <string name="emailhint">Enter email</string>
+    <string name="mobilenumber_dept">Mobile Number </string>
+    <string name="mobilehint">Enter Mobile Number</string>
+    <string name="titlename">Title Name</string>
+    <string name="selecttitle">Title</string>
+    <string name="firstname">First Name</string>
+    <string name="selectfirstname"> FirstName</string>
+    <string name="lasttname">Last Name</string>
+    <string name="username">User Name</string>
+    <string name="selectlastname">LastName</string>
+    <string name="password">Password</string>
+    <string name="confirmpasssword"> Enter Password</string>
+    <string name="newpassword"> Enter New Password</string>
+    <string name="confirmpassswordfieldhint"> Confirm Password</string>
+    <string name="confirmpassword">Confirm Password*</string>
+    <string name="gender">Gender</string>
+    <string name="selectgender">-Select Gender-</string>
+    <string name="Dob">Date of Birth</string>
+    <string name="takepicture">Capture/Upload Photo</string>
+    <string name="submit">Submit</string>
+    <string name="sendotp">Send</string>
+    <string name="registrationreport_no">No</string>
+    <string name="registrationreport_yes">Yes</string>
+    <string name="registrationreport">Do you want discard registration process ?</string>
+    <string name="mandatory">*</string>
+
+    <!--NavigationView-->
+    <string name="roads">Roads</string>
+    <string name="drains">Drains</string>
+    <string name="institutions">Institutions</string>
+    <string name="dumpyard">Dump Yard</string>
+    <string name="graveyard">Graveyard</string>
+    <string name="logout">Logout</string>
+    <string name="pendingapproval">Pending Approval</string>
+    <string name="home">Roads</string>
+    <string name="drainsbottom">Drains</string>
+    <string name="logout_message">Are you sure to logout?</string>
+    <string name="cancel">Cancel</string>
+
+
+    <string name="institute">Instituttions</string>
+    <string name="drainNumber">Drain No.</string>
+    <string name="RoadNumber">Road No.</string>
+    <string name="instituteNumber">No.</string>
+    <string name="sr1">1</string>
+    <string name="sr2">2</string>
+    <string name="location1">224/9/17, 8/3/224/9/17, Madhura Nagar Internal Rd, Madhura Nagar, Hyderabad, Telangana 500038, India</string>
+    <string name="Location2">224/9/17, 8/3/224/9/17, Madhura Nagar Internal Rd, Madhura Nagar, Hyderabad, Telangana 500038, India</string>
+
+    <string name="bt_submit">Submit</string>
+
+    <string name="Location">Location</string>
+    <string name="image">Image</string>
+    <string name="welcome">   Welcome   </string>
+    <string name="applicationname">Epanchayat</string>
+
+    <string name="to">to</string>
+    <string name="fo">For</string>
+    <string name="pallepragath">Palle Pragathi</string>
+    <string name="dailyapprailsal">Daily Appraisal</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
